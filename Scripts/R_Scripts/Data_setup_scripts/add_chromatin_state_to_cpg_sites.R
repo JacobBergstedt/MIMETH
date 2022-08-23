@@ -1,0 +1,8 @@
+library(tidyverse)
+library(glue)
+library(vroom)
+library(GenomicRanges)
+source("./Scripts/R_scripts/Libraries/functions_for_annotation.R")
+meth_loc <- get_anno_meth_location(fix = FALSE)
+meth_roadmap <- add_15_state_annotation(meth_loc, "Probe_chr", "Probe_position", "Probe")
+saveRDS(meth_roadmap, "./Data/RData/Methylation/Annotation/meth_anno_roadmap.rds")
