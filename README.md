@@ -1,2 +1,2 @@
 # MIMETH
-Contains code that produced results of article "The Immune Factors Driving DNA Methylation Variation in Human Blood""
+Contains code that produced results of article "The Immune Factors Driving DNA Methylation Variation in Human Blood". Please note that this is the raw code that produced the main results of the article. Due to legal and ethical constraints we cannot upload donor data in this setting. It will therefore not be possible to reproduce our results based solely on this repository. Please note that the upload the code was intended to run on the Institute Pasteur slurm computing server on a file system of preprocessed files setup for efficent computation.
